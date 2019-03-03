@@ -1,0 +1,56 @@
+      h1{
+         text-transform: uppercase;
+         font: Veritas 46px/1.5em;
+         text-align: center;
+         color: gold;
+      }
+      img{
+      display:block;
+      margin:auto;
+      }
+      [ingrediente-vegetal] {
+      color: green;
+      }
+      [ingrediente-animal] {
+      color: orange;
+      }
+      [paso] {
+      font: 24px;
+      }
+      [paso="1"] {
+      color: #5564eb;
+      }
+      [paso="2"] {
+      color: #4c2882;
+      }
+      [paso="3"] {
+      color: #7d2181;
+      }
+      [paso="4"] {
+      color: #094293;
+      }
+      [paso="5"] {
+      color: #333c87;
+      }
+      [paso="6"] {
+      color: #673dff;
+      }
+      [paso="7"] {
+      color: #7a61ab;
+      font-size: 26px;
+      }
+      [paso~="1 2"] {
+      font-size: 26px;
+      }
+      [type="submit"] {
+      color: red;
+      font-size: 32px;
+      }
+      form {
+         border: 3px solid gold;
+      }
+      body {
+         margin: 70px auto;
+         width: 600px;
+      }
+      }
